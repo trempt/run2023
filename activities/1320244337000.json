@@ -1,0 +1,168 @@
+{
+    "id": "774208735",
+    "type": "run",
+    "app_id": "ITUNES",
+    "start_epoch_ms": 1320244307000,
+    "end_epoch_ms": 1320244337000,
+    "last_modified": 1320324142000,
+    "active_duration_ms": 23049,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "ITUNES",
+            "value": 12.48472262016
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "ITUNES",
+            "value": 4.176
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "ITUNES",
+            "value": 32.49960333244826
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "ITUNES",
+            "value": 6.511016949152543
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "ITUNES",
+            "value": 9.2151503319016
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "ITUNES",
+            "value": 0.059
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "nike.running.app"
+    ],
+    "tags": {
+        "emotion": "AMPED",
+        "location": "INDOORS",
+        "terrain": "AMPED",
+        "weather": "AMPED"
+    },
+    "change_tokens": [
+        "5c741fed14b4efb29a21aad02a3d1f812f4d349f61bcb465a56406ae4c2ceef1:1320324142000"
+    ],
+    "metric_types": [
+        "distance",
+        "pace",
+        "calories",
+        "nikefuel",
+        "speed"
+    ],
+    "metrics": [
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "ITUNES",
+            "values": [
+                {
+                    "start_epoch_ms": 1320244317000,
+                    "end_epoch_ms": 1320244327000,
+                    "value": 4.71580218153009
+                },
+                {
+                    "start_epoch_ms": 1320244327000,
+                    "end_epoch_ms": 1320244337000,
+                    "value": 4.673071526577978
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.running.app",
+            "appId": "ITUNES",
+            "values": [
+                {
+                    "start_epoch_ms": 1320244307000,
+                    "end_epoch_ms": 1320244337000,
+                    "value": 12.48472262016
+                }
+            ]
+        },
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "nike.running.app",
+            "appId": "ITUNES",
+            "values": [
+                {
+                    "start_epoch_ms": 1320244307000,
+                    "end_epoch_ms": 1320244317000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1320244317000,
+                    "end_epoch_ms": 1320244327000,
+                    "value": 0.031
+                },
+                {
+                    "start_epoch_ms": 1320244327000,
+                    "end_epoch_ms": 1320244337000,
+                    "value": 0.027999999999999997
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "nike.running.app",
+            "appId": "ITUNES",
+            "values": [
+                {
+                    "start_epoch_ms": 1320244307000,
+                    "end_epoch_ms": 1320244317000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1320244317000,
+                    "end_epoch_ms": 1320244327000,
+                    "value": 12.72318
+                },
+                {
+                    "start_epoch_ms": 1320244327000,
+                    "end_epoch_ms": 1320244337000,
+                    "value": 12.839521
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.running.app",
+            "appId": "ITUNES",
+            "values": [
+                {
+                    "start_epoch_ms": 1320244307000,
+                    "end_epoch_ms": 1320244337000,
+                    "value": 4.176
+                }
+            ]
+        }
+    ],
+    "moments": []
+}

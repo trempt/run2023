@@ -1,0 +1,276 @@
+{
+    "id": "2091199606",
+    "type": "run",
+    "app_id": "NIKEPLUSGPS",
+    "start_epoch_ms": 1358688908776,
+    "end_epoch_ms": 1358688987035,
+    "last_modified": 1358689079000,
+    "active_duration_ms": 78259,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 4.095477836414979
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 14.56701465646124
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 14.650305140589321
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 19
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 0.08902999999999996
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 6
+        },
+        {
+            "metric": "steps",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 0
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "nike.running.ios"
+    ],
+    "tags": {
+        "location": "INDOORS",
+        "shoes": "air max"
+    },
+    "change_tokens": [
+        "044bb137a20e4471a374cdd962ec569b9cdd1a2546d1cbd51bee43556c816d8e:1358689079000"
+    ],
+    "metric_types": [
+        "distance",
+        "horizontal_accuracy",
+        "pace",
+        "calories",
+        "steps",
+        "nikefuel",
+        "speed"
+    ],
+    "metrics": [
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688987035,
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688987035,
+                    "value": 19
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688918776,
+                    "value": 6.174783767275148
+                },
+                {
+                    "start_epoch_ms": 1358688918776,
+                    "end_epoch_ms": 1358688928776,
+                    "value": 6.179821103879529
+                },
+                {
+                    "start_epoch_ms": 1358688928776,
+                    "end_epoch_ms": 1358688938776,
+                    "value": 6.2633112035612655
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688918776,
+                    "value": 9.716939452679364
+                },
+                {
+                    "start_epoch_ms": 1358688918776,
+                    "end_epoch_ms": 1358688928776,
+                    "value": 9.709018916798994
+                },
+                {
+                    "start_epoch_ms": 1358688928776,
+                    "end_epoch_ms": 1358688938776,
+                    "value": 9.579597444540918
+                },
+                {
+                    "start_epoch_ms": 1358688938776,
+                    "end_epoch_ms": 1358688948776,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688948776,
+                    "end_epoch_ms": 1358688958776,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688958776,
+                    "end_epoch_ms": 1358688968776,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688968776,
+                    "end_epoch_ms": 1358688978776,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "horizontal_accuracy",
+            "unit": "M",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688908776,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688919956,
+                    "end_epoch_ms": 1358688919956,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688931136,
+                    "end_epoch_ms": 1358688931136,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688942316,
+                    "end_epoch_ms": 1358688942316,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688953496,
+                    "end_epoch_ms": 1358688953496,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688964676,
+                    "end_epoch_ms": 1358688964676,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688975856,
+                    "end_epoch_ms": 1358688975856,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "steps",
+            "unit": "STEP",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688987035,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1358688908776,
+                    "end_epoch_ms": 1358688918776,
+                    "value": 0.020341382696479872
+                },
+                {
+                    "start_epoch_ms": 1358688918776,
+                    "end_epoch_ms": 1358688928776,
+                    "value": 0.026192319541800707
+                },
+                {
+                    "start_epoch_ms": 1358688928776,
+                    "end_epoch_ms": 1358688938776,
+                    "value": 0.026208818819578643
+                },
+                {
+                    "start_epoch_ms": 1358688938776,
+                    "end_epoch_ms": 1358688948776,
+                    "value": 0.016287478942140735
+                },
+                {
+                    "start_epoch_ms": 1358688948776,
+                    "end_epoch_ms": 1358688958776,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688958776,
+                    "end_epoch_ms": 1358688968776,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1358688968776,
+                    "end_epoch_ms": 1358688978776,
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "moments": []
+}

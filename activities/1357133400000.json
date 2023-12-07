@@ -1,0 +1,220 @@
+{
+    "id": "2092079550",
+    "type": "run",
+    "app_id": "CONNECT",
+    "start_epoch_ms": 1357133356000,
+    "end_epoch_ms": 1357133400000,
+    "last_modified": 1358861262000,
+    "active_duration_ms": 44000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 7
+        },
+        {
+            "metric": "steps",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 38
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 21
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 28.636363636363637
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 7.505967585410746
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 7.993639636363636
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 0.09770004
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "com.nike.speedcalculator.v1",
+        "nike.running.app"
+    ],
+    "tags": {},
+    "change_tokens": [
+        "c5ea51cd840212a84ecf774bd9952249211cb9a179030aed92e56540dcc28bf3:1358861262000"
+    ],
+    "metric_types": [
+        "distance",
+        "pace",
+        "calories",
+        "steps",
+        "speed",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1357133356000,
+                    "end_epoch_ms": 1357133400000,
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.nike.speedcalculator.v1",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1357133356000,
+                    "end_epoch_ms": 1357133366000,
+                    "value": 4.5278928
+                },
+                {
+                    "start_epoch_ms": 1357133366000,
+                    "end_epoch_ms": 1357133376000,
+                    "value": 10.3898916
+                },
+                {
+                    "start_epoch_ms": 1357133376000,
+                    "end_epoch_ms": 1357133386000,
+                    "value": 10.7941716
+                },
+                {
+                    "start_epoch_ms": 1357133386000,
+                    "end_epoch_ms": 1357133396000,
+                    "value": 9.4600584
+                }
+            ]
+        },
+        {
+            "type": "steps",
+            "unit": "STEP",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1357133356000,
+                    "end_epoch_ms": 1357133400000,
+                    "value": 38
+                }
+            ]
+        },
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1357133356000,
+                    "end_epoch_ms": 1357133366000,
+                    "value": 0.01257748
+                },
+                {
+                    "start_epoch_ms": 1357133366000,
+                    "end_epoch_ms": 1357133376000,
+                    "value": 0.02886081
+                },
+                {
+                    "start_epoch_ms": 1357133376000,
+                    "end_epoch_ms": 1357133386000,
+                    "value": 0.02998381
+                },
+                {
+                    "start_epoch_ms": 1357133386000,
+                    "end_epoch_ms": 1357133396000,
+                    "value": 0.02627794
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1357133356000,
+                    "end_epoch_ms": 1357133366000,
+                    "value": 13.251197113147203
+                },
+                {
+                    "start_epoch_ms": 1357133366000,
+                    "end_epoch_ms": 1357133376000,
+                    "value": 5.774843695193124
+                },
+                {
+                    "start_epoch_ms": 1357133376000,
+                    "end_epoch_ms": 1357133386000,
+                    "value": 5.558555322577973
+                },
+                {
+                    "start_epoch_ms": 1357133386000,
+                    "end_epoch_ms": 1357133396000,
+                    "value": 6.342455560316626
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1357133356000,
+                    "end_epoch_ms": 1357133400000,
+                    "value": 21
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1357133400000,
+            "app_id": "CONNECT",
+            "source": "nike.running.app"
+        },
+        {
+            "key": "halt",
+            "value": "resume",
+            "timestamp": 1357133400000,
+            "app_id": "CONNECT",
+            "source": "nike.running.app"
+        }
+    ]
+}

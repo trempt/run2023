@@ -1,0 +1,208 @@
+{
+    "id": "1332000000017470958920005664816489318564",
+    "type": "run",
+    "app_id": "NIKEPLUSGPS",
+    "start_epoch_ms": 1440247204606,
+    "end_epoch_ms": 1440247587310,
+    "last_modified": 1440247212000,
+    "active_duration_ms": 382704,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "stars",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 0
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 6.315216230775082
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 64
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 263.00001000000003
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 9.500862331143974
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 41.232912642669014
+        },
+        {
+            "metric": "steps",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 0
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "nike.running.ios",
+            "app_id": "NIKEPLUSGPS",
+            "value": 1.010005004882812
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "com.nike.speedcalculator.v1",
+        "nike.running.ios"
+    ],
+    "tags": {
+        "location": "INDOORS"
+    },
+    "change_tokens": [
+        "9c0bcc6767e21c5df5ed571e93d9feebdca6966d99c401720aae522f6913e91d:1440247212000"
+    ],
+    "metric_types": [
+        "distance",
+        "pace",
+        "calories",
+        "stars",
+        "steps",
+        "nikefuel",
+        "speed"
+    ],
+    "metrics": [
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247587310,
+                    "value": 64
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247264606,
+                    "value": 44.41778
+                },
+                {
+                    "start_epoch_ms": 1440247264606,
+                    "end_epoch_ms": 1440247324606,
+                    "value": 44.41778
+                },
+                {
+                    "start_epoch_ms": 1440247324606,
+                    "end_epoch_ms": 1440247384606,
+                    "value": 44.41778
+                },
+                {
+                    "start_epoch_ms": 1440247384606,
+                    "end_epoch_ms": 1440247444606,
+                    "value": 43.24889
+                },
+                {
+                    "start_epoch_ms": 1440247444606,
+                    "end_epoch_ms": 1440247504606,
+                    "value": 43.24889
+                },
+                {
+                    "start_epoch_ms": 1440247504606,
+                    "end_epoch_ms": 1440247564606,
+                    "value": 43.24889
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247587310,
+                    "value": 6.315216230775081
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.nike.speedcalculator.v1",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247587310,
+                    "value": 9.500862331143974
+                }
+            ]
+        },
+        {
+            "type": "steps",
+            "unit": "STEP",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247587310,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "stars",
+            "unit": "STAR",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247587310,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "nike.running.ios",
+            "appId": "NIKEPLUSGPS",
+            "values": [
+                {
+                    "start_epoch_ms": 1440247204606,
+                    "end_epoch_ms": 1440247587310,
+                    "value": 1.010005004882812
+                }
+            ]
+        }
+    ],
+    "moments": []
+}

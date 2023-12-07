@@ -1,0 +1,277 @@
+{
+    "id": "2137238466",
+    "type": "run",
+    "app_id": "CONNECT",
+    "start_epoch_ms": 1366068416000,
+    "end_epoch_ms": 1366068422000,
+    "last_modified": 1367234882000,
+    "active_duration_ms": 6000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 0
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 0
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 0.0046
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 0
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 2.76
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 21.73913043478261
+        },
+        {
+            "metric": "steps",
+            "summary": "total",
+            "source": "nike.running.app",
+            "app_id": "CONNECT",
+            "value": 0
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "com.nike.speedcalculator.v1",
+        "nike.running.app"
+    ],
+    "tags": {},
+    "change_tokens": [
+        "c9cb01e25033f8066ea16fa9ef05d521e6dda38ed75727da752b0c2325dc5723:1367234882000"
+    ],
+    "metric_types": [
+        "elevation",
+        "distance",
+        "latitude",
+        "pace",
+        "calories",
+        "steps",
+        "speed",
+        "nikefuel",
+        "longitude"
+    ],
+    "metrics": [
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068422000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.nike.speedcalculator.v1",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068422000,
+                    "value": 2.76
+                }
+            ]
+        },
+        {
+            "type": "latitude",
+            "unit": "DD",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068416000,
+                    "value": 23.008347
+                },
+                {
+                    "start_epoch_ms": 1366068417001,
+                    "end_epoch_ms": 1366068417001,
+                    "value": 23.008362
+                },
+                {
+                    "start_epoch_ms": 1366068418001,
+                    "end_epoch_ms": 1366068418001,
+                    "value": 23.008375
+                },
+                {
+                    "start_epoch_ms": 1366068419001,
+                    "end_epoch_ms": 1366068419001,
+                    "value": 23.00839
+                },
+                {
+                    "start_epoch_ms": 1366068420001,
+                    "end_epoch_ms": 1366068420001,
+                    "value": 23.008406
+                },
+                {
+                    "start_epoch_ms": 1366068421001,
+                    "end_epoch_ms": 1366068421001,
+                    "value": 23.00842
+                }
+            ]
+        },
+        {
+            "type": "elevation",
+            "unit": "M",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068416000,
+                    "value": 22.886091
+                },
+                {
+                    "start_epoch_ms": 1366068417001,
+                    "end_epoch_ms": 1366068417001,
+                    "value": 22.814106
+                },
+                {
+                    "start_epoch_ms": 1366068418001,
+                    "end_epoch_ms": 1366068418001,
+                    "value": 22.755701
+                },
+                {
+                    "start_epoch_ms": 1366068419001,
+                    "end_epoch_ms": 1366068419001,
+                    "value": 22.68238
+                },
+                {
+                    "start_epoch_ms": 1366068420001,
+                    "end_epoch_ms": 1366068420001,
+                    "value": 22.617664
+                },
+                {
+                    "start_epoch_ms": 1366068421001,
+                    "end_epoch_ms": 1366068421001,
+                    "value": 22.550007
+                }
+            ]
+        },
+        {
+            "type": "steps",
+            "unit": "STEP",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068422000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068422000,
+                    "value": 21.739130434782613
+                }
+            ]
+        },
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068422000,
+                    "value": 0.0046
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068422000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "longitude",
+            "unit": "DD",
+            "source": "nike.running.app",
+            "appId": "CONNECT",
+            "values": [
+                {
+                    "start_epoch_ms": 1366068416000,
+                    "end_epoch_ms": 1366068416000,
+                    "value": 113.7451
+                },
+                {
+                    "start_epoch_ms": 1366068417001,
+                    "end_epoch_ms": 1366068417001,
+                    "value": 113.7451
+                },
+                {
+                    "start_epoch_ms": 1366068418001,
+                    "end_epoch_ms": 1366068418001,
+                    "value": 113.7451
+                },
+                {
+                    "start_epoch_ms": 1366068419001,
+                    "end_epoch_ms": 1366068419001,
+                    "value": 113.7451
+                },
+                {
+                    "start_epoch_ms": 1366068420001,
+                    "end_epoch_ms": 1366068420001,
+                    "value": 113.7451
+                },
+                {
+                    "start_epoch_ms": 1366068421001,
+                    "end_epoch_ms": 1366068421001,
+                    "value": 113.7451
+                }
+            ]
+        }
+    ],
+    "moments": []
+}
